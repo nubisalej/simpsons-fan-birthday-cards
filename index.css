@@ -1,0 +1,130 @@
+@font-face {
+    src: url("simpson-font.otf");
+    font-family: simpsons;
+} 
+
+body {
+    background: #ff81c1;
+    background-size: 12%;
+    font-family: simpsons;
+}
+
+#main-section {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(#2f64d6, #ffd90f);
+    /* background: #2f64d6; */
+    color: #ffd90f;
+    padding: 10%;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 350px;
+}
+
+.p1 {
+    width: 40%;
+    font-size: 25px;
+    margin-bottom: 5px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    color: #ff81c1;
+    text-shadow: 1px 2px black;
+}
+
+.p2 {
+    width: 22%;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    color: #ff81c1;
+    text-shadow: 1px 2px black;
+}
+
+.p3 {
+    color: #ffffff;
+    background: #ff81c1;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 1px 2px black;
+}
+
+.gift-sections {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.gift-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px 2px black;
+    color: white;
+    background: #ffd90f;
+    border-radius: 15px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 5px;
+}
+
+.cover {
+    width: 400px;
+    height: 300px;
+    border: 5px solid #ffd90f;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    background-position: 0px -77px;
+    margin-bottom: 80px;
+}
+
+#happy-cover:hover {
+    background-image: url("images/happy.gif");
+    background-position: center;
+}
+
+#hot-cover:hover {
+    background-image: url("images/hot.gif");
+    background-position: center;
+}
+
+#genius-cover:hover {
+    background-image: url("images/genius.gif");
+    background-position: center;
+}
+
+#badass-cover:hover {
+    background-image: url("images/badass.gif");
+    background-position: center;
+}
+
+#footer {
+    background: blanchedalmond;
+    border-radius: 10px;
+    padding: 0px 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+}
+
+#course-link {
+    color: #2f64d6;
+}
